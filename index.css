@@ -95,7 +95,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-#conteudo-lateral {
+.conteudo-lateral {
 	background: #fff;
 	padding: 10px;
 	margin-bottom: 20px;
