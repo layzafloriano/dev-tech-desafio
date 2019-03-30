@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -6,8 +11,9 @@ body {
 
 header {
 	background: #f7b000;
-	padding: 15px;
+	padding: 15px 0px;
 	text-align: center;
+	width: 100%;
 }
 
 #logo, nav {
@@ -40,6 +46,7 @@ nav a:hover {
 section {
 	width: 920px;
 	margin: 0 auto;
+	padding: 15px;
 }
 
 #post {
@@ -57,7 +64,8 @@ footer {
 	background: #ccc;
 	clear: both;
 	text-align: center;
-	padding: 15px
+	padding: 15px 0px;
+	width: 100%;
 }
 
 .postagem {
@@ -74,11 +82,6 @@ p {
 	margin-bottom: 10px;
 }
 
-section {
-	width: 920px;
-	margin: 0 auto;
-	padding: 15px;
-}
 
 .dataPost {
 	font-size: 0.8em;
@@ -113,9 +116,26 @@ h3 {
 .texto-lateral {
 	font-size: 0.8em;
 	padding: 5px;
-	}
+}
 
 li {
 	padding: 5px;
 	list-style-type: none;
+	margin: 0;
+}
+
+@media (max-width: 960px) {
+	section {
+		width: 90%;
+	}
+	#post {
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+	}
+	#sidebar {
+		width: 100%;
+	}
 }
