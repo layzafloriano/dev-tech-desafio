@@ -102,3 +102,20 @@ a:hover {
 	padding: 10px;
 	margin-bottom: 20px;
 }
+
+h3 {
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	}
+
+li {
+	padding: 5px;
+	list-style-type: none;
+}
